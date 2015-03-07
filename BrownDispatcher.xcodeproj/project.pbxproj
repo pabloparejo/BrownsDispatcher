@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57FC2011AAB1D7E004895A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC2001AAB1D7E004895A3 /* main.m */; };
+		C57FC2041AAB1D7E004895A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC2031AAB1D7E004895A3 /* AppDelegate.m */; };
+		C57FC2061AAB1D7E004895A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57FC2051AAB1D7E004895A3 /* Images.xcassets */; };
+		C57FC2091AAB1D7E004895A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57FC2071AAB1D7E004895A3 /* LaunchScreen.xib */; };
+		C57FC2151AAB1D7E004895A3 /* BrownDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC2141AAB1D7E004895A3 /* BrownDispatcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57FC20F1AAB1D7E004895A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57FC1F31AAB1D7E004895A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57FC1FA1AAB1D7E004895A3;
+			remoteInfo = BrownDispatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C57FC1FB1AAB1D7E004895A3 /* BrownDispatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrownDispatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57FC1FF1AAB1D7E004895A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57FC2001AAB1D7E004895A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C57FC2021AAB1D7E004895A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C57FC2031AAB1D7E004895A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C57FC2051AAB1D7E004895A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C57FC2081AAB1D7E004895A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C57FC20E1AAB1D7E004895A3 /* BrownDispatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownDispatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57FC2131AAB1D7E004895A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57FC2141AAB1D7E004895A3 /* BrownDispatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrownDispatcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57FC1F81AAB1D7E004895A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FC20B1AAB1D7E004895A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57FC1F21AAB1D7E004895A3 = {
+			isa = PBXGroup;
+			children = (
+				C57FC1FD1AAB1D7E004895A3 /* BrownDispatcher */,
+				C57FC2111AAB1D7E004895A3 /* BrownDispatcherTests */,
+				C57FC1FC1AAB1D7E004895A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57FC1FC1AAB1D7E004895A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC1FB1AAB1D7E004895A3 /* BrownDispatcher.app */,
+				C57FC20E1AAB1D7E004895A3 /* BrownDispatcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57FC1FD1AAB1D7E004895A3 /* BrownDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC2021AAB1D7E004895A3 /* AppDelegate.h */,
+				C57FC2031AAB1D7E004895A3 /* AppDelegate.m */,
+				C57FC2051AAB1D7E004895A3 /* Images.xcassets */,
+				C57FC2071AAB1D7E004895A3 /* LaunchScreen.xib */,
+				C57FC1FE1AAB1D7E004895A3 /* Supporting Files */,
+			);
+			path = BrownDispatcher;
+			sourceTree = "<group>";
+		};
+		C57FC1FE1AAB1D7E004895A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC1FF1AAB1D7E004895A3 /* Info.plist */,
+				C57FC2001AAB1D7E004895A3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57FC2111AAB1D7E004895A3 /* BrownDispatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC2141AAB1D7E004895A3 /* BrownDispatcherTests.m */,
+				C57FC2121AAB1D7E004895A3 /* Supporting Files */,
+			);
+			path = BrownDispatcherTests;
+			sourceTree = "<group>";
+		};
+		C57FC2121AAB1D7E004895A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC2131AAB1D7E004895A3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57FC1FA1AAB1D7E004895A3 /* BrownDispatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57FC2181AAB1D7E004895A3 /* Build configuration list for PBXNativeTarget "BrownDispatcher" */;
+			buildPhases = (
+				C57FC1F71AAB1D7E004895A3 /* Sources */,
+				C57FC1F81AAB1D7E004895A3 /* Frameworks */,
+				C57FC1F91AAB1D7E004895A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrownDispatcher;
+			productName = BrownDispatcher;
+			productReference = C57FC1FB1AAB1D7E004895A3 /* BrownDispatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C57FC20D1AAB1D7E004895A3 /* BrownDispatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57FC21B1AAB1D7E004895A3 /* Build configuration list for PBXNativeTarget "BrownDispatcherTests" */;
+			buildPhases = (
+				C57FC20A1AAB1D7E004895A3 /* Sources */,
+				C57FC20B1AAB1D7E004895A3 /* Frameworks */,
+				C57FC20C1AAB1D7E004895A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57FC2101AAB1D7E004895A3 /* PBXTargetDependency */,
+			);
+			name = BrownDispatcherTests;
+			productName = BrownDispatcherTests;
+			productReference = C57FC20E1AAB1D7E004895A3 /* BrownDispatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57FC1F31AAB1D7E004895A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Pablo Parejo Camacho";
+				TargetAttributes = {
+					C57FC1FA1AAB1D7E004895A3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C57FC20D1AAB1D7E004895A3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C57FC1FA1AAB1D7E004895A3;
+					};
+				};
+			};
+			buildConfigurationList = C57FC1F61AAB1D7E004895A3 /* Build configuration list for PBXProject "BrownDispatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57FC1F21AAB1D7E004895A3;
+			productRefGroup = C57FC1FC1AAB1D7E004895A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57FC1FA1AAB1D7E004895A3 /* BrownDispatcher */,
+				C57FC20D1AAB1D7E004895A3 /* BrownDispatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57FC1F91AAB1D7E004895A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FC2091AAB1D7E004895A3 /* LaunchScreen.xib in Resources */,
+				C57FC2061AAB1D7E004895A3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FC20C1AAB1D7E004895A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57FC1F71AAB1D7E004895A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FC2041AAB1D7E004895A3 /* AppDelegate.m in Sources */,
+				C57FC2011AAB1D7E004895A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FC20A1AAB1D7E004895A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FC2151AAB1D7E004895A3 /* BrownDispatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57FC2101AAB1D7E004895A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57FC1FA1AAB1D7E004895A3 /* BrownDispatcher */;
+			targetProxy = C57FC20F1AAB1D7E004895A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C57FC2071AAB1D7E004895A3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57FC2081AAB1D7E004895A3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C57FC2161AAB1D7E004895A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C57FC2171AAB1D7E004895A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57FC2191AAB1D7E004895A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrownDispatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C57FC21A1AAB1D7E004895A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BrownDispatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C57FC21C1AAB1D7E004895A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrownDispatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownDispatcher.app/BrownDispatcher";
+			};
+			name = Debug;
+		};
+		C57FC21D1AAB1D7E004895A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrownDispatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrownDispatcher.app/BrownDispatcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57FC1F61AAB1D7E004895A3 /* Build configuration list for PBXProject "BrownDispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FC2161AAB1D7E004895A3 /* Debug */,
+				C57FC2171AAB1D7E004895A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57FC2181AAB1D7E004895A3 /* Build configuration list for PBXNativeTarget "BrownDispatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FC2191AAB1D7E004895A3 /* Debug */,
+				C57FC21A1AAB1D7E004895A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C57FC21B1AAB1D7E004895A3 /* Build configuration list for PBXNativeTarget "BrownDispatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FC21C1AAB1D7E004895A3 /* Debug */,
+				C57FC21D1AAB1D7E004895A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57FC1F31AAB1D7E004895A3 /* Project object */;
+}
