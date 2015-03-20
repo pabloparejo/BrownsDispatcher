@@ -10,4 +10,8 @@
 
 @interface HomeViewController : UIViewController
 
+- (IBAction)handleBrown:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *brownedText;
+
+
 @end

@@ -10,4 +10,18 @@
 
 @interface PARPeople : NSObject
 
+
++(PARPeople *) sharedInstance;
+
+-(NSString *) nameForPersonAtIndex:(NSUInteger)index;
+-(BOOL) brownedForPersonAtIndex:(NSUInteger)index;
+-(NSUInteger) brownedCount;
+-(NSUInteger) count;
+-(void) setPersonAtIndex:(NSUInteger)index browned:(BOOL) browned;
+
+
+
++(NSString *) nameKey;
++(NSString *) brownedKey;
+
 @end

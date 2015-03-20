@@ -12,6 +12,10 @@
 		C57FC2061AAB1D7E004895A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57FC2051AAB1D7E004895A3 /* Images.xcassets */; };
 		C57FC2091AAB1D7E004895A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57FC2071AAB1D7E004895A3 /* LaunchScreen.xib */; };
 		C57FC2151AAB1D7E004895A3 /* BrownDispatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC2141AAB1D7E004895A3 /* BrownDispatcherTests.m */; };
+		C57FC2241AAB1DE6004895A3 /* PARBrownedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC2231AAB1DE6004895A3 /* PARBrownedsViewController.m */; };
+		C57FC22C1AAB200C004895A3 /* PARPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC22B1AAB200C004895A3 /* PARPeople.m */; };
+		C57FC2301AAB2C92004895A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57FC22E1AAB2C92004895A3 /* HomeViewController.m */; };
+		C57FC2311AAB2C92004895A3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57FC22F1AAB2C92004895A3 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 		C57FC20E1AAB1D7E004895A3 /* BrownDispatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrownDispatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57FC2131AAB1D7E004895A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C57FC2141AAB1D7E004895A3 /* BrownDispatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrownDispatcherTests.m; sourceTree = "<group>"; };
+		C57FC2221AAB1DE6004895A3 /* PARBrownedsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARBrownedsViewController.h; sourceTree = "<group>"; };
+		C57FC2231AAB1DE6004895A3 /* PARBrownedsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARBrownedsViewController.m; sourceTree = "<group>"; };
+		C57FC22A1AAB200C004895A3 /* PARPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARPeople.h; sourceTree = "<group>"; };
+		C57FC22B1AAB200C004895A3 /* PARPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARPeople.m; sourceTree = "<group>"; };
+		C57FC22D1AAB2C92004895A3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		C57FC22E1AAB2C92004895A3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		C57FC22F1AAB2C92004895A3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +87,10 @@
 		C57FC1FD1AAB1D7E004895A3 /* BrownDispatcher */ = {
 			isa = PBXGroup;
 			children = (
+				C57FC2251AAB1FB8004895A3 /* Model */,
 				C57FC2021AAB1D7E004895A3 /* AppDelegate.h */,
 				C57FC2031AAB1D7E004895A3 /* AppDelegate.m */,
+				C57FC21E1AAB1D91004895A3 /* Controller */,
 				C57FC2051AAB1D7E004895A3 /* Images.xcassets */,
 				C57FC2071AAB1D7E004895A3 /* LaunchScreen.xib */,
 				C57FC1FE1AAB1D7E004895A3 /* Supporting Files */,
@@ -109,6 +122,27 @@
 				C57FC2131AAB1D7E004895A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57FC21E1AAB1D91004895A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC22D1AAB2C92004895A3 /* HomeViewController.h */,
+				C57FC22E1AAB2C92004895A3 /* HomeViewController.m */,
+				C57FC22F1AAB2C92004895A3 /* HomeViewController.xib */,
+				C57FC2221AAB1DE6004895A3 /* PARBrownedsViewController.h */,
+				C57FC2231AAB1DE6004895A3 /* PARBrownedsViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C57FC2251AAB1FB8004895A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C57FC22A1AAB200C004895A3 /* PARPeople.h */,
+				C57FC22B1AAB200C004895A3 /* PARPeople.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +227,7 @@
 			files = (
 				C57FC2091AAB1D7E004895A3 /* LaunchScreen.xib in Resources */,
 				C57FC2061AAB1D7E004895A3 /* Images.xcassets in Resources */,
+				C57FC2311AAB2C92004895A3 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +246,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57FC2041AAB1D7E004895A3 /* AppDelegate.m in Sources */,
+				C57FC2241AAB1DE6004895A3 /* PARBrownedsViewController.m in Sources */,
+				C57FC22C1AAB200C004895A3 /* PARPeople.m in Sources */,
+				C57FC2301AAB2C92004895A3 /* HomeViewController.m in Sources */,
 				C57FC2011AAB1D7E004895A3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

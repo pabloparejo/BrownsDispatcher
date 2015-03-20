@@ -7,8 +7,12 @@
 //
 
 #import "HomeViewController.h"
+#import "PARPeople.h"
+#import "PARBrownedsViewController.h"
 
 @interface HomeViewController ()
+
+@property (strong, nonatomic) PARPeople *model;
 
 @end
 
@@ -16,7 +20,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.model = [PARPeople sharedInstance];
+}
+
+- (void) viewWillAppear:(BOOL)animated{
+    NSString *text =[NSString stringWithFormat:@"Currently, there are %ld browneds",[self.model brownedCount]];
+    [self.brownedText setText:text];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +33,9 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)handleBrown:(id)sender {
+    PARBrownedsViewController *vc = [[PARBrownedsViewController alloc] initWithModel:self.model];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:navVC animated:YES completion:nil];
 }
-*/
-
 @end

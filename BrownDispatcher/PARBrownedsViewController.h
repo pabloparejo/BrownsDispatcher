@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PARPeople.h"
 
 @interface PARBrownedsViewController : UITableViewController
+
+@property (strong, nonatomic) PARPeople *model;
+
+-(id) initWithModel:(PARPeople *) model;
 
 @end
