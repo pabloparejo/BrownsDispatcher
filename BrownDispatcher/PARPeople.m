@@ -26,9 +26,9 @@
         if (!inst) {
             inst = [[self alloc] init];
             inst.model = [@[[@{KEY_FOR_NAME: @"Lucia", KEY_FOR_BROWNED: @NO} mutableCopy],
-                            [@{KEY_FOR_NAME: @"Alberto", KEY_FOR_BROWNED: @NO}mutableCopy],
-                            [@{KEY_FOR_NAME: @"Antonio", KEY_FOR_BROWNED: @NO}mutableCopy],
-                            [@{KEY_FOR_NAME: @"Hugo", KEY_FOR_BROWNED: @NO}mutableCopy]] mutableCopy];
+                            [@{KEY_FOR_NAME: @"Alberto", KEY_FOR_BROWNED: @NO} mutableCopy],
+                            [@{KEY_FOR_NAME: @"Antonio", KEY_FOR_BROWNED: @NO} mutableCopy],
+                            [@{KEY_FOR_NAME: @"Hugo", KEY_FOR_BROWNED: @NO} mutableCopy]] mutableCopy];
         }
     }
     return inst;

@@ -20,6 +20,7 @@
 -(id) initWithModel:(PARPeople *) model{
     if (self = [super init]) {
         _model = model;
+        self.title = @"Pick the next browned";
     }
     return self;
 }
@@ -56,7 +57,17 @@
          cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CELL_ID forIndexPath:indexPath];
+
     [cell.textLabel setText:[self.model nameForPersonAtIndex:indexPath.row]];
+    
+    if ([self.model brownedForPersonAtIndex:indexPath.row]) {
+        cell.backgroundColor = [UIColor colorWithRed:1 green:0.7 blue:0.1 alpha:1];
+        cell.textLabel.textColor =  [UIColor whiteColor];
+    }else{
+        cell.backgroundColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:1];
+        cell.textLabel.textColor =  [UIColor blackColor];
+    }
+    
     return cell;
 }
 
@@ -75,6 +86,7 @@
                                                        style:UIAlertActionStyleDestructive
                                                      handler:^(UIAlertAction *action) {
                                                          [weakSelf.model setPersonAtIndex:indexPath.row browned:NO];
+                                                         [tableView reloadData];
                                                      }];
         [alert addAction:free];
         [alert addAction:cancel];
@@ -94,6 +106,7 @@
         [self presentViewController:alert animated:YES completion:nil];
 
         [self.model setPersonAtIndex:indexPath.row browned:YES];
+        [tableView reloadData];
     }
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
