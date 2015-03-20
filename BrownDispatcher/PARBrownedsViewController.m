@@ -68,16 +68,16 @@
                                                                        message:nil
                                                                 preferredStyle:UIAlertControllerStyleActionSheet];
         UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"cancel"
-                                                         style:UIAlertActionStyleCancel
+                                                         style:UIAlertActionStyleDefault
                                                        handler:nil];
         __weak typeof(self) weakSelf = self;
         UIAlertAction *free = [UIAlertAction actionWithTitle:@"set free"
-                                                       style:UIAlertActionStyleDefault
+                                                       style:UIAlertActionStyleDestructive
                                                      handler:^(UIAlertAction *action) {
                                                          [weakSelf.model setPersonAtIndex:indexPath.row browned:NO];
                                                      }];
-        [alert addAction:cancel];
         [alert addAction:free];
+        [alert addAction:cancel];
         [self presentViewController:alert animated:YES completion:nil];
     }else{
         NSString *title = [NSString stringWithFormat:@"%@ has been browned!", [self.model nameForPersonAtIndex:indexPath.row]];
